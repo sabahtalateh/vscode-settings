@@ -65,6 +65,8 @@
   "breadcrumbs.enabled": false, // actually true. (bug?)
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
+  "editor.unicodeHighlight.nonBasicASCII": true,
+  "peacock.showColorInStatusBar": false,
   "peacock.favoriteColors": [
     {
       "name": "Angular Red",
@@ -119,5 +121,4 @@
       "value": "#fef8cd"
     }
   ],
-  "peacock.showColorInStatusBar": false,
 }
