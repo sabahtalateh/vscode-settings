@@ -19,7 +19,7 @@ git init
 git remote add origin https://github.com/sabahtalateh/vscode-settings.git
 ```
 ```bash
-git pull
+git pull origin main
 ```
 
 
