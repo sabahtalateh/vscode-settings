@@ -1,5 +1,13 @@
 # VS Code settings
 
+## VS Code Config alias
+```bash
+echo "alias vscode-config='code ~/Library/Application\ Support/Code/User'" >> ~/.zshrc
+```
+```bash
+echo "alias vscode-config='code ~/Library/Application\ Support/Code\ -\ Insiders/User'" >> ~/.zshrc
+```
+
 ## Sync settings
 ### Go to settings dir
 MacOS VS Code
