@@ -1,0 +1,42 @@
+{
+	"if err != nil return err": {
+		"prefix": ["ie1"],
+		"body": [
+			"if err != nil {"
+			"\treturn err"
+			"}$0"
+		]
+	},
+	"if err != nil return nil, err": {
+		"prefix": ["ie2"],
+		"body": [
+			"if err != nil {"
+			"\treturn ${1:nil}, err"
+			"}$0"
+		]
+	},
+	"if err != nil return nil, nil, err": {
+		"prefix": ["ie3"],
+		"body": [
+			"if err != nil {"
+			"\treturn ${1:nil}, ${2:nil}, err"
+			"}$0"
+		]
+	}
+	// "if err := function(); err != nil return err": {
+	// 	"prefix": ["ie"],
+	// 	"body": [
+	// 		"if err ${2::}= ${1:function()}; err != nil {"
+	// 		"\treturn err",
+	// 		"}$0"
+	// 	]
+	// },
+	"if err := ${SELECTED_TEXT}; err != nil return err": {
+		"prefix": ["ie"],
+		"body": [
+			"if err := ${TM_SELECTED_TEXT}; err != nil {",
+			"\treturn err",
+			"}$0"
+		]
+	}
+}
