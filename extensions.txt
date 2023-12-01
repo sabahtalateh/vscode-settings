@@ -25,7 +25,6 @@ ms-vscode.powershell
 ms-vscode.remote-explorer
 ms-vscode.remote-repositories
 ms-vscode.remote-server
-mtxr.sqltools
 nanxstats.textmate-rstheme
 perseus.vscode-yandex-arc
 rajratnamaitry.open-folder-in-new-vscode
