@@ -23,8 +23,8 @@ git pull origin main
 ```
 
 
-## Dump & Install extensions
-Dump
+## Extensions
+### Dump
 ```bash
 make dump-extensions
 ```
@@ -33,7 +33,7 @@ Or
 make insiders-dump-extensions
 ```
 
-Install
+### Install
 ```bash
 make install-extensions
 ```
