@@ -13,7 +13,7 @@ echo "export VSCODE_DIR=\${HOME}/vscode" >> ~/.zshrc
 echo "export VSCODE_DATA=\${VSCODE_DIR}/code" >> ~/.zshrc
 ```
 ```bash
-echo "export VSCODE_EXTENSIONS=\${VSCODE_DATA}/extensions" >> ~/.zshrc
+echo "export VSCODE_EXTENSIONS=\${VSCODE_DIR}/extensions" >> ~/.zshrc
 ```
 ```bash
 source ~/.zshrc
