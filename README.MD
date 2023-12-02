@@ -39,14 +39,15 @@ git remote add origin https://github.com/sabahtalateh/vscode-settings.git
 git pull origin main
 ```
 
-
 ## Extensions
-### Dump
+Extensions can be dumped into file, pushed to this repo and installed from this file
+
+Dump
 ```bash
 make dump-extensions
 ```
 
-### Install
+Install
 ```bash
 make install-extensions
 ```
