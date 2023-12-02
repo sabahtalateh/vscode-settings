@@ -24,6 +24,9 @@ source ~/.zshrc
 ```bash
 echo "alias vsconf='code \${VSCODE_DATA}/User'" >> ~/.zshrc
 ```
+```bash
+source ~/.zshrc
+```
 
 ## Sync settings
 ### Go to settings dir
