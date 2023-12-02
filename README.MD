@@ -3,13 +3,13 @@
 ## Env Vars
 Add directories where to store VS Code user data and extensions
 ```bash
-echo "export VSCODE_DATA=${HOME}/vscode >> ~/.zshrc"
+echo "export VSCODE_DATA=${HOME}/vscode" >> ~/.zshrc"
 ```
 ```bash
-echo "export VSCODE_USER_DATA=${VSCODE_DATA}/user >> ~/.zshrc"
+echo "export VSCODE_USER_DATA=${VSCODE_DATA}/user" >> ~/.zshrc"
 ```
 ```bash
-echo "export VSCODE_EXTENSIONS=${VSCODE_DATA}/extensions >> ~/.zshrc"
+echo "export VSCODE_EXTENSIONS=${VSCODE_DATA}/extensions" >> ~/.zshrc"
 ```
 
 ## Export Directories
