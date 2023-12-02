@@ -15,6 +15,9 @@ echo "export VSCODE_DATA=\${VSCODE_DIR}/code" >> ~/.zshrc
 ```bash
 echo "export VSCODE_EXTENSIONS=\${VSCODE_DATA}/extensions" >> ~/.zshrc
 ```
+```bash
+source ~/.zshrc
+```
 
 ## Export Directories
 VS Code
