@@ -33,7 +33,6 @@ source ~/.zshrc
 
 ## Sync settings
 ### Go to settings dir
-VS Code
 ```bash
 mkdir -p ${VSCODE_DATA}/User
 ```
