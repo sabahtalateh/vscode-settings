@@ -40,7 +40,7 @@ git pull origin main
 ```
 
 ## Extensions
-Extensions can be dumped into `extensions.txt` file, pushed to this repo and reinstalled from `extensions.txt` file (for example into VS Code Insiders or VSCodium)
+Extensions can be dumped into `extensions.txt` file, pushed to this repo and reinstalled from `extensions.txt` file (for example in VS Code Insiders or VSCodium)
 
 Dump
 ```bash
