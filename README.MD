@@ -24,8 +24,9 @@ source ~/.zshrc
 
 
 ## VS Code Config alias
+`codeconf` command will run VS Code within config folder
 ```bash
-echo "alias codeconf='vs \${VSCODE_DATA}/User'" >> ~/.zshrc
+echo "alias codeconf='code -n \${VSCODE_DATA}/User'" >> ~/.zshrc
 ```
 ```bash
 source ~/.zshrc
