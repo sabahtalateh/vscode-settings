@@ -32,11 +32,7 @@ source ~/.zshrc
 ### Go to settings dir
 VS Code
 ```bash
-cd ~/Library/Application\ Support/Code/User
-```
-VS Code Insiders
-```bash
-cd ~/Library/Application\ Support/Code\ -\ Insiders/User
+cd ${VSCODE_DATA}/User
 ```
 
 ### Clone this repo
