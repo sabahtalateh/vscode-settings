@@ -1,20 +1,39 @@
 # VS Code settings
 
+## Env Vars
+Add directories where to store VS Code user data and extensions
+```bash
+echo "export VSCODE_DATA=${HOME}/vscode >> ~/.zshrc"
+```
+```bash
+echo "export VSCODE_USER_DATA=${VSCODE_DATA}/user >> ~/.zshrc"
+```
+```bash
+echo "export VSCODE_EXTENSIONS=${VSCODE_DATA}/extensions >> ~/.zshrc"
+```
+
+## Export Directories
+VS Code
+```bash
+echo "export VSCODE_USER_DIR=~/.vscode/user"
+```
+
+
 ## VS Code Config alias
 ```bash
 echo "alias vscode-config='code ~/Library/Application\ Support/Code/User'" >> ~/.zshrc
 ```
 ```bash
-echo "alias vscode-config='code ~/Library/Application\ Support/Code\ -\ Insiders/User'" >> ~/.zshrc
+echo "alias vscode-insiders-config='code-insiders ~/Library/Application\ Support/Code\ -\ Insiders/User'" >> ~/.zshrc
 ```
 
 ## Sync settings
 ### Go to settings dir
-MacOS VS Code
+VS Code
 ```bash
 cd ~/Library/Application\ Support/Code/User
 ```
-MacOS VS Code Insiders
+VS Code Insiders
 ```bash
 cd ~/Library/Application\ Support/Code\ -\ Insiders/User
 ```
