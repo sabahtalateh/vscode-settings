@@ -32,6 +32,9 @@ source ~/.zshrc
 ### Go to settings dir
 VS Code
 ```bash
+mkdir -p ${VSCODE_DATA}/User
+```
+```bash
 cd ${VSCODE_DATA}/User
 ```
 
