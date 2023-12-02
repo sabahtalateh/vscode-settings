@@ -58,16 +58,8 @@ git pull origin main
 ```bash
 make dump-extensions
 ```
-Or
-```bash
-make insiders-dump-extensions
-```
 
 ### Install
 ```bash
 make install-extensions
-```
-Or
-```bash
-make insiders-install-extensions
 ```
