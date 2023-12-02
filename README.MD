@@ -22,10 +22,7 @@ source ~/.zshrc
 
 ## VS Code Config alias
 ```bash
-echo "alias vscode-config='code ~/Library/Application\ Support/Code/User'" >> ~/.zshrc
-```
-```bash
-echo "alias vscode-insiders-config='code-insiders ~/Library/Application\ Support/Code\ -\ Insiders/User'" >> ~/.zshrc
+echo "alias vscode-config='code \${VSCODE_DATA}/User'" >> ~/.zshrc
 ```
 
 ## Sync settings
