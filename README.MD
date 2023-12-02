@@ -14,11 +14,17 @@ source ~/.zshrc
 ```
 
 ## Sync settings
-Go to settings dir
+Go to VS Code user dir
 ```bash
 cd ~/Library/Application\ Support/Code/User
 ```
-Remove existing config
+or VS Code - Insiders user dir
+```bash
+cd ~/Library/Application\ Support/Code\ -\ Insiders/User
+```
+or VSCodium user dir
+
+Remove existing settings
 ```bash
 rm settings.json
 ```
