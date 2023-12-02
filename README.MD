@@ -23,6 +23,9 @@ or **VS Code - Insiders** user dir
 cd ~/Library/Application\ Support/Code\ -\ Insiders/User
 ```
 or **VSCodium** user dir
+```bash
+cd ~/Library/Application\ Support/VSCodium/User
+```
 
 Remove existing settings
 ```bash
