@@ -18,6 +18,16 @@ Go to settings dir
 ```bash
 cd ~/Library/Application\ Support/Code/User
 ```
+Remove existing config
+```bash
+rm settings.json
+```
+```bash
+rm keybindings.json
+```
+```bash
+rm -rf snippets
+```
 Clone this repo
 ```bash
 git init
