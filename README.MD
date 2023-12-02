@@ -32,7 +32,7 @@ source ~/.zshrc
 ```
 
 ## Sync settings
-### Go to settings dir
+Go to settings dir
 ```bash
 mkdir -p ${VSCODE_DATA}/User
 ```
@@ -40,7 +40,7 @@ mkdir -p ${VSCODE_DATA}/User
 cd ${VSCODE_DATA}/User
 ```
 
-### Clone this repo
+Clone this repo
 ```bash
 git init
 ```
