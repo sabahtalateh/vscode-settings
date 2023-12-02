@@ -25,7 +25,7 @@ source ~/.zshrc
 
 ## VS Code Config alias
 ```bash
-echo "alias vsconf='code \${VSCODE_DATA}/User'" >> ~/.zshrc
+echo "alias vsconf='vs \${VSCODE_DATA}/User'" >> ~/.zshrc
 ```
 ```bash
 source ~/.zshrc
