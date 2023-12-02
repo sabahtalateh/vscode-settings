@@ -2,8 +2,7 @@
 
 ## Install
 - Install VS Code
-- Open VS Code
-- In Command Palette (default Cmd+P) select `install 'code' command in PATH`
+- Open VS Code and then In Command Palette (default Cmd+P) select `install 'code' command in PATH`
 
 ## Env Vars
 Add directories where to store VS Code user data and extensions
