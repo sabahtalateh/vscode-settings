@@ -19,12 +19,6 @@ echo "export VSCODE_EXTENSIONS=\${VSCODE_DIR}/extensions" >> ~/.zshrc
 source ~/.zshrc
 ```
 
-## Export Directories
-VS Code
-```bash
-echo "export VSCODE_USER_DIR=~/.vscode/user"
-```
-
 
 ## VS Code Config alias
 ```bash
