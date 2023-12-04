@@ -124,4 +124,5 @@
       "value": "#fef8cd"
     }
   ],
+  "redhat.telemetry.enabled": false,
 }

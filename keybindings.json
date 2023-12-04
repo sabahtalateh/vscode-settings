@@ -397,7 +397,7 @@
     },
     // Meta Go
     {
-        "key": "alt+f",
+        "key": "shift+space",
         "command": "metaGo.gotoBefore"
     },
     {
@@ -460,6 +460,20 @@
         "command": "-metaGo.metaJump.deleteToBefore",
         "when": "editorTextFocus"
     },
+    {
+        "key": "shift+cmd+h",
+        "command": "-workbench.action.replaceInFiles"
+    },
+    {
+        "key": "shift+cmd+h",
+        "command": "metaGo.metaJump.hideDecoration",
+        "when": "editorTextFocus && metaGoJumping"
+    },
+    {
+        "key": "shift+space",
+        "command": "-metaGo.metaJump.hideDecoration",
+        "when": "editorTextFocus && metaGoJumping"
+    },
     // Delete Right
     {
         "key": "ctrl+backspace",
@@ -511,5 +525,5 @@
         "key": "shift+end",
         "command": "-cursorEndSelect",
         "when": "textInputFocus"
-    },
+    }
 ]
