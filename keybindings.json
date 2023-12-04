@@ -358,7 +358,7 @@
     // Go to File
     {
         "key": "alt+tab",
-        "command": "workbench.action.quickOpen"
+        "command": "extension.quickOpen.withPrefill",
     },
     {
         "key": "cmd+p",
@@ -486,15 +486,30 @@
         "command": "-cursorLeft",
         "when": "textInputFocus"
     },
-    // Unbind
+    // Select to end of line
     {
-        "key": "ctrl+f",
-        "command": "-cursorRight",
+        "key": "cmd+\\",
+        "command": "cursorEndSelect",
         "when": "textInputFocus"
     },
     {
-        "key": "cmd+u",
-        "command": "-cursorUndo",
+        "key": "cmd+\\",
+        "command": "-workbench.action.splitEditor"
+    },
+    {
+        "key": "cmd+\\",
+        "command": "-workbench.action.terminal.split",
+        "when": "terminalFocus && terminalProcessSupported || terminalFocus && terminalWebExtensionContributedProfile"
+    },
+    {
+        "key": "cmd+\\",
+        "command": "-workbench.action.terminal.splitActiveTab",
+        "when": "terminalProcessSupported && terminalTabsFocus"
+    },
+    
+    {
+        "key": "shift+end",
+        "command": "-cursorEndSelect",
         "when": "textInputFocus"
     },
 ]
