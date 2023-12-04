@@ -236,6 +236,17 @@
         "command": "-cursorLineStart",
         "when": "textInputFocus"
     },
+     // Next/Prev Word
+     {
+        "key": "ctrl+w",
+        "command": "cursorWordEndRight",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+b",
+        "command": "cursorWordLeft",
+        "when": "textInputFocus"
+    },
     // Next/Prev window
     {
         "key": "alt+[BracketLeft]",
@@ -282,7 +293,7 @@
     },
     // Close window
     {
-        "key": "ctrl+w",
+        "key": "alt+w",
         "command": "workbench.action.closeWindow"
     },
     {
@@ -295,16 +306,16 @@
     },
     // Search window
     {
-        "key": "alt+f",
+        "key": "ctrl+f",
         "command": "workbench.action.findInFiles"
     },
     {
-        "key": "alt+f",
+        "key": "ctrl+f",
         "command": "workbench.view.search",
         "when": "workbench.view.search.active && neverMatch =~ /doesNotMatch/"
     },
     {
-        "key": "alt+f",
+        "key": "ctrl+f",
         "command": "workbench.action.terminal.searchWorkspace",
         "when": "terminalFocus && terminalProcessSupported && terminalTextSelected"
     },
@@ -327,7 +338,7 @@
         "key": "alt+b",
         "command": "bookmarksExplorer.focus"
     },
-    // Zoom Window
+    // Zoom
     {
         "key": "cmd+=",
         "command": "-workbench.action.zoomIn"
@@ -363,31 +374,6 @@
         "command": "-workbench.action.quickOpenNavigateNextInFilePicker",
         "when": "inFilesPicker && inQuickOpen"
     },
-    // Turbo fmt.Println
-    {
-        "key": "cmd+j",
-        "command": "turboConsoleLog.displayLogMessage"
-    },
-    {
-        "key": "ctrl+alt+l",
-        "command": "-turboConsoleLog.displayLogMessage"
-    },
-    {
-        "key": "shift+alt+c",
-        "command": "-turboConsoleLog.commentAllLogMessages"
-    },
-    {
-        "key": "shift+alt+d",
-        "command": "-turboConsoleLog.deleteAllLogMessages"
-    },
-    {
-        "key": "shift+alt+u",
-        "command": "-turboConsoleLog.uncommentAllLogMessages"
-    },
-    {
-        "key": "cmd+j",
-        "command": "-workbench.action.togglePanel"
-    },
     // Copy file path
     {
         "key": "cmd+p",
@@ -408,5 +394,107 @@
         "key": "cmd+k alt+cmd+c",
         "command": "-copyFilePath",
         "when": "editorFocus"
+    },
+    // Meta Go
+    {
+        "key": "alt+f",
+        "command": "metaGo.gotoBefore"
+    },
+    {
+        "key": "alt+f",
+        "command": "-jump-and-select.jumpForward",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "alt+d",
+        "command": "-metaGo.metaJump.deleteToSmart",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+.",
+        "command": "-metaGo.addCursorAfter"
+    },
+    {
+        "key": "ctrl+alt+,",
+        "command": "-metaGo.addCursorBefore"
+    },
+    {
+        "key": "ctrl+alt+/",
+        "command": "-metaGo.addCursorSmart"
+    },
+    {
+        "key": "shift+alt+.",
+        "command": "-metaGo.selectAfter",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "shift+alt+,",
+        "command": "-metaGo.selectBefore",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "shift+alt+/",
+        "command": "-metaGo.selectSmart",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "tab",
+        "command": "-metaGo.metaJump.tab",
+        "when": "editorTextFocus && metaGoJumping"
+    },
+    {
+        "key": "alt+,",
+        "command": "-metaGo.gotoBefore"
+    },
+    {
+        "key": "alt+.",
+        "command": "-metaGo.gotoAfter"
+    },
+    {
+        "key": "alt+delete",
+        "command": "-metaGo.metaJump.deleteToAfter",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+backspace",
+        "command": "-metaGo.metaJump.deleteToBefore",
+        "when": "editorTextFocus"
+    },
+    // Delete Right
+    {
+        "key": "ctrl+backspace",
+        "command": "deleteWordRight",
+        "when": "textInputFocus && !editorReadonly"
+    },
+    {
+        "key": "shift+backspace",
+        "command": "-deleteLeft",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+backspace",
+        "command": "-deleteLeft",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "alt+delete",
+        "command": "-deleteWordRight",
+        "when": "textInputFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+b",
+        "command": "-cursorLeft",
+        "when": "textInputFocus"
+    },
+    // Unbind
+    {
+        "key": "ctrl+f",
+        "command": "-cursorRight",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "cmd+u",
+        "command": "-cursorUndo",
+        "when": "textInputFocus"
     },
 ]

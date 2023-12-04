@@ -23,20 +23,18 @@
 			"}$0"
 		]
 	}
-	// "if err := function(); err != nil return err": {
-	// 	"prefix": ["ie"],
-	// 	"body": [
-	// 		"if err ${2::}= ${1:function()}; err != nil {"
-	// 		"\treturn err",
-	// 		"}$0"
-	// 	]
-	// },
 	"if err := ${SELECTED_TEXT}; err != nil return err": {
 		"prefix": ["ie"],
 		"body": [
 			"if err := ${TM_SELECTED_TEXT}; err != nil {",
 			"\treturn err",
 			"}$0"
+		]
+	},
+	"debug variable": {
+		"prefix": ["d"],
+		"body": [
+			"fmt.Printf(\"${1:x} = %+v\\n\", ${2})$0"
 		]
 	}
 }

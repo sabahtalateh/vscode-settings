@@ -10,7 +10,9 @@ GitHub.remotehub
 GitHub.vscode-pull-request-github
 golang.go
 johnpapa.vscode-peacock
-miguelsolorio.symbols
+liuchao.go-struct-tag
+metaseed.MetaJump
+miguelsolorio.symbols 
 mikestead.dotenv
 ms-azuretools.vscode-docker
 MS-CEINTL.vscode-language-pack-ru
@@ -34,7 +36,6 @@ ritwickdey.LiveServer
 ryu1kn.annotator
 sabaken.good-icons
 sabaken.seti-minimal-folder
-sachinsmc.turbo-fmt-println
 shd101wyy.markdown-preview-enhanced
 SimonSiefke.svg-preview
 task.vscode-task

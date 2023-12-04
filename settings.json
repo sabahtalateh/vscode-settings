@@ -66,6 +66,7 @@
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
   "editor.unicodeHighlight.nonBasicASCII": true,
+  "diffEditor.ignoreTrimWhitespace": false,
   "peacock.showColorInStatusBar": false,
   "peacock.favoriteColors": [
     {
