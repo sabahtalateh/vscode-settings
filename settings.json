@@ -66,7 +66,6 @@
   "explorer.confirmDragAndDrop": false,
   "editor.unicodeHighlight.nonBasicASCII": true,
   "diffEditor.ignoreTrimWhitespace": false,
-  "workbench.statusBar.visible": false,
   "diffEditor.experimental.showMoves": true,
   "workbench.editor.enablePreview": false,
   "peacock.showColorInStatusBar": false,
@@ -125,4 +124,5 @@
     }
   ],
   "redhat.telemetry.enabled": false,
+  "workbench.statusBar.visible": false,
 }

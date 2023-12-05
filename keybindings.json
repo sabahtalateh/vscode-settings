@@ -306,16 +306,16 @@
     },
     // Search window
     {
-        "key": "ctrl+f",
+        "key": "cmd+f",
         "command": "workbench.action.findInFiles"
     },
     {
-        "key": "ctrl+f",
+        "key": "cmd+f",
         "command": "workbench.view.search",
         "when": "workbench.view.search.active && neverMatch =~ /doesNotMatch/"
     },
     {
-        "key": "ctrl+f",
+        "key": "cmd+f",
         "command": "workbench.action.terminal.searchWorkspace",
         "when": "terminalFocus && terminalProcessSupported && terminalTextSelected"
     },
@@ -525,5 +525,117 @@
         "key": "shift+end",
         "command": "-cursorEndSelect",
         "when": "textInputFocus"
+    },
+    // Find
+    {
+        "key": "ctrl+f",
+        "command": "actions.find",
+        "when": "editorFocus || editorIsOpen"
+    },
+    {
+        "key": "cmd+f",
+        "command": "-actions.find",
+        "when": "editorFocus || editorIsOpen"
+    },
+    {
+        "key": "ctrl+f",
+        "command": "settings.action.search",
+        "when": "inSettingsEditor"
+    },
+    {
+        "key": "cmd+f",
+        "command": "-settings.action.search",
+        "when": "inSettingsEditor"
+    },
+    {
+        "key": "ctrl+f",
+        "command": "repl.action.filter",
+        "when": "inDebugRepl && textInputFocus"
+    },
+    {
+        "key": "cmd+f",
+        "command": "-repl.action.filter",
+        "when": "inDebugRepl && textInputFocus"
+    },
+    {
+        "key": "ctrl+f",
+        "command": "workbench.action.terminal.focusFind",
+        "when": "terminalFindFocused && terminalHasBeenCreated || terminalFindFocused && terminalProcessSupported || terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported"
+    },
+    {
+        "key": "cmd+f",
+        "command": "-workbench.action.terminal.focusFind",
+        "when": "terminalFindFocused && terminalHasBeenCreated || terminalFindFocused && terminalProcessSupported || terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported"
+    },
+    {
+        "key": "ctrl+f",
+        "command": "commentsFocusFilter",
+        "when": "focusedView == 'workbench.panel.comments'"
+    },
+    {
+        "key": "cmd+f",
+        "command": "-commentsFocusFilter",
+        "when": "focusedView == 'workbench.panel.comments'"
+    },
+    {
+        "key": "ctrl+f",
+        "command": "editor.action.extensioneditor.showfind",
+        "when": "!editorFocus && activeEditor == 'workbench.editor.extension'"
+    },
+    {
+        "key": "cmd+f",
+        "command": "-editor.action.extensioneditor.showfind",
+        "when": "!editorFocus && activeEditor == 'workbench.editor.extension'"
+    },
+    {
+        "key": "ctrl+f",
+        "command": "editor.action.webvieweditor.showFind",
+        "when": "webviewFindWidgetEnabled && !editorFocus && activeEditor == 'WebviewEditor'"
+    },
+    // Find in Files
+    {
+        "key": "cmd+f",
+        "command": "-editor.action.webvieweditor.showFind",
+        "when": "webviewFindWidgetEnabled && !editorFocus && activeEditor == 'WebviewEditor'"
+    },
+    {
+        "key": "ctrl+f",
+        "command": "keybindings.editor.searchKeybindings",
+        "when": "inKeybindings"
+    },
+    {
+        "key": "cmd+f",
+        "command": "-keybindings.editor.searchKeybindings",
+        "when": "inKeybindings"
+    },
+    {
+        "key": "ctrl+f",
+        "command": "list.find",
+        "when": "listFocus && listSupportsFind"
+    },
+    {
+        "key": "cmd+f",
+        "command": "-list.find",
+        "when": "listFocus && listSupportsFind"
+    },
+    {
+        "key": "ctrl+f",
+        "command": "notebook.find",
+        "when": "notebookEditorFocused && !editorFocus && activeEditor == 'workbench.editor.interactive' || notebookEditorFocused && !editorFocus && activeEditor == 'workbench.editor.notebook'"
+    },
+    {
+        "key": "cmd+f",
+        "command": "-notebook.find",
+        "when": "notebookEditorFocused && !editorFocus && activeEditor == 'workbench.editor.interactive' || notebookEditorFocused && !editorFocus && activeEditor == 'workbench.editor.notebook'"
+    },
+    {
+        "key": "ctrl+f",
+        "command": "problems.action.focusFilter",
+        "when": "focusedView == 'workbench.panel.markers.view'"
+    },
+    {
+        "key": "cmd+f",
+        "command": "-problems.action.focusFilter",
+        "when": "focusedView == 'workbench.panel.markers.view'"
     }
 ]
