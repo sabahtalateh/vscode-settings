@@ -11,9 +11,9 @@
   "zenMode.fullScreen": false,
   "go.toolsManagement.autoUpdate": true,
   // "editor.fontFamily": "'Hack', Menlo, Monaco, 'Courier New', monospace",
-  // "editor.fontFamily": "'JetBrainsMono Nerd Font Mono', Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontFamily": "'JetBrainsMono Nerd Font Mono', Menlo, Monaco, 'Courier New', monospace",
   // "editor.fontFamily": "'Fira Code', Menlo, Monaco, 'Courier New', monospace",
-  "editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace",
+  // "editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace",
   "editor.fontSize": 12,
   // "workbench.fontAliasing": "antialiased",
   "editor.renderWhitespace": "selection",
@@ -68,6 +68,9 @@
   "diffEditor.ignoreTrimWhitespace": false,
   "diffEditor.experimental.showMoves": true,
   "workbench.editor.enablePreview": false,
+  "redhat.telemetry.enabled": false,
+  "workbench.statusBar.visible": false,
+  "editor.guides.indentation": false,
   "peacock.showColorInStatusBar": false,
   "peacock.favoriteColors": [
     {
@@ -123,6 +126,4 @@
       "value": "#fef8cd"
     }
   ],
-  "redhat.telemetry.enabled": false,
-  "workbench.statusBar.visible": false,
 }
