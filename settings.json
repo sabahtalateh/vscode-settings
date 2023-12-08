@@ -14,7 +14,7 @@
   "editor.fontFamily": "'JetBrainsMono Nerd Font Mono', Menlo, Monaco, 'Courier New', monospace",
   // "editor.fontFamily": "'Fira Code', Menlo, Monaco, 'Courier New', monospace",
   // "editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace",
-  "editor.fontSize": 12,
+  "editor.fontSize": 13,
   // "workbench.fontAliasing": "antialiased",
   "editor.renderWhitespace": "selection",
   "workbench.editor.showTabs": "single",
@@ -69,7 +69,6 @@
   "diffEditor.experimental.showMoves": true,
   "workbench.editor.enablePreview": false,
   "redhat.telemetry.enabled": false,
-  "workbench.statusBar.visible": false,
   "editor.guides.indentation": false,
   "peacock.showColorInStatusBar": false,
   "peacock.favoriteColors": [
