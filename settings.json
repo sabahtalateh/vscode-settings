@@ -182,6 +182,12 @@
             "foreground": "#8C6200"
           }
         },
+        {
+          "scope": "constant.character.escape",
+          "settings": {
+            "foreground": "#003ACC"
+          }
+        },
       ]
     }
   },
