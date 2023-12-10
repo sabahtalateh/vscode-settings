@@ -42,4 +42,5 @@ SimonSiefke.svg-preview
 task.vscode-task
 UrosVujosevic.explorer-manager
 wayou.vscode-todo-highlight
+xaver.clang-format
 zxh404.vscode-proto3
