@@ -323,7 +323,7 @@
     },
     // Go to File
     {
-        "key": "alt+tab",
+        "key": "cmd+p",
         "command": "extension.quickOpen.withPrefill",
     },
     {
@@ -331,7 +331,7 @@
         "command": "-workbench.action.quickOpen"
     },
     {
-        "key": "alt+tab",
+        "key": "cmd+p",
         "command": "workbench.action.quickOpenNavigateNextInFilePicker",
         "when": "inFilesPicker && inQuickOpen"
     },
@@ -342,7 +342,7 @@
     },
     // Copy file path
     {
-        "key": "cmd+p",
+        "key": "shift+cmd+c",
         "command": "copyFilePath",
         "when": "!editorFocus"
     },
@@ -352,7 +352,7 @@
         "when": "!editorFocus"
     },
     {
-        "key": "cmd+p",
+        "key": "shift+cmd+c",
         "command": "copyFilePath",
         "when": "editorFocus"
     },
@@ -498,8 +498,18 @@
     },
     // Reveal file in Explorer
     {
-        "key": "cmd+r",
+        "key": "shift+cmd+e",
         "command": "workbench.files.action.showActiveFileInExplorer",
         "when": "editorFocus"
+    },
+    {
+        "key": "shift+cmd+c",
+        "command": "-workbench.action.terminal.openNativeConsole",
+        "when": "!terminalFocus"
+    },
+    {
+        "key": "shift+cmd+e",
+        "command": "-workbench.view.explorer",
+        "when": "viewContainer.workbench.view.explorer.enabled"
     }
 ]
