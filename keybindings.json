@@ -486,10 +486,14 @@
         "command": "-workbench.action.terminal.splitActiveTab",
         "when": "terminalProcessSupported && terminalTabsFocus"
     },
-    
     {
         "key": "shift+end",
         "command": "-cursorEndSelect",
         "when": "textInputFocus"
+    },
+    // Quick Fix
+    {
+        "key": "alt+enter",
+        "command": "editor.action.quickFix"
     }
 ]

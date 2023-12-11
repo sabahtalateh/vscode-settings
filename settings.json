@@ -274,4 +274,8 @@
   "[proto3]": {
     "editor.defaultFormatter": "zxh404.vscode-proto3"
   },
+  "codeium.enableConfig": {
+    "*": true
+  },
+  "workbench.statusBar.visible": false,
 }
