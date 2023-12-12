@@ -36,24 +36,24 @@
     },
     // Bars
     {
-        "key": "cmd+f1",
+        "key": "alt+f1",
         "command": "workbench.action.toggleActivityBarVisibility"
     },
     {
-        "key": "cmd+f2",
+        "key": "alt+f2",
         "command": "workbench.action.toggleSidebarVisibility",
     },
     {
-        "key": "cmd+f2",
+        "key": "alt+f2",
         "command": "-editor.action.changeAll",
         "when": "editorTextFocus && !editorReadonly"
     },
     {
-        "key": "cmd+f3",
+        "key": "alt+f3",
         "command": "workbench.action.togglePanel"
     },
     {
-        "key": "cmd+f4",
+        "key": "alt+f4",
         "command": "workbench.action.toggleStatusbarVisibility"
     },
     // Toggle exporer
@@ -498,9 +498,8 @@
     },
     // Reveal file in Explorer
     {
-        "key": "shift+cmd+e",
-        "command": "workbench.files.action.showActiveFileInExplorer",
-        "when": "editorFocus"
+        "key": "cmd+f1",
+        "command": "workbench.files.action.showActiveFileInExplorer"
     },
     {
         "key": "shift+cmd+c",
@@ -511,5 +510,10 @@
         "key": "shift+cmd+e",
         "command": "-workbench.view.explorer",
         "when": "viewContainer.workbench.view.explorer.enabled"
+    },
+    {
+        "key": "cmd+k cmd+e",
+        "command": "-keybindings.editor.defineWhenExpression",
+        "when": "inKeybindings && keybindingFocus"
     }
 ]

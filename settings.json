@@ -277,6 +277,6 @@
   "codeium.enableConfig": {
     "*": true
   },
-  "workbench.statusBar.visible": false,
   "explorer.autoReveal": false,
+  "workbench.statusBar.visible": false,
 }
