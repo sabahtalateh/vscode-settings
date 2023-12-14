@@ -139,6 +139,15 @@
       ]
     }
   },
+  "editor.semanticTokenColorCustomizations": {
+    "[Default Light Modern]": {
+      "enabled": true,
+      "rules": {
+        "type.definition": "#000",
+        "type": "#4379D0FF"
+      }
+    }
+  },
   "todohighlight.keywords": [
     {
       "text": "TODO",
