@@ -69,7 +69,7 @@
     "[Default Light Modern]": {
       "strings": "#07961D",
       "numbers": "#1750eb",
-      "functions": "#000",
+      "functions": "#267f99",
       "comments": "#9E9E9E",
       "textMateRules": [
         {
