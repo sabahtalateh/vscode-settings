@@ -94,26 +94,6 @@
     },
     // Recent files navigation    
     {
-        "key": "cmd+`",
-        "command": "workbench.action.quickOpenPreviousRecentlyUsedEditorInGroup",
-        "when": "!activeEditorGroupEmpty"
-    },
-    {
-        "key": "cmd+`",
-        "command": "workbench.action.quickOpenNavigateNextInEditorPicker",
-        "when": "inEditorsPicker && inQuickOpen"
-    },
-    {
-        "key": "cmd+]",
-        "command": "workbench.action.quickOpenPreviousRecentlyUsedEditorInGroup",
-        "when": "!activeEditorGroupEmpty"
-    },
-    {
-        "key": "cmd+]",
-        "command": "workbench.action.quickOpenNavigateNextInEditorPicker",
-        "when": "inEditorsPicker && inQuickOpen"
-    },
-    {
         "key": "ctrl+tab",
         "command": "-workbench.action.quickOpenNavigateNextInEditorPicker",
         "when": "inEditorsPicker && inQuickOpen"
@@ -249,23 +229,48 @@
     },
     // Next/Prev window
     {
-        "key": "alt+[BracketLeft]",
+        "key": "cmd+[",
         "command": "workbench.action.showPreviousWindowTab",
     },
     {
-        "key": "alt+[BracketRight]",
+        "key": "cmd+]",
         "command": "workbench.action.showNextWindowTab",
     },
-    // Stop debug
     {
-        "key": "f3",
-        "command": "workbench.action.debug.stop",
-        "when": "inDebugMode && !focusedSessionIsAttach"
+        "key": "cmd+]",
+        "command": "-editor.action.indentLines",
+        "when": "editorTextFocus && !editorReadonly"
     },
     {
-        "key": "shift+f5",
-        "command": "-workbench.action.debug.stop",
-        "when": "inDebugMode && !focusedSessionIsAttach"
+        "key": "cmd+[",
+        "command": "-editor.action.outdentLines",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    // Debug
+    {
+        "key": "f3",
+        "command": "workbench.action.debug.start",
+        "when": "debuggersAvailable && debugState == 'inactive'"
+    },
+    {
+        "key": "f5",
+        "command": "-workbench.action.debug.start",
+        "when": "debuggersAvailable && debugState == 'inactive'"
+    },
+    {
+        "key": "f3",
+        "command": "workbench.action.debug.continue",
+        "when": "debugState == 'stopped'"
+    },
+    {
+        "key": "f5",
+        "command": "-workbench.action.debug.continue",
+        "when": "debugState == 'stopped'"
+    },
+    {
+        "key": "f3",
+        "command": "debug.openView",
+        "when": "!debuggersAvailable"
     },
     {
         "key": "f3",
@@ -277,6 +282,22 @@
         "command": "-editor.action.nextMatchFindAction",
         "when": "editorFocus"
     },
+    {
+        "key": "f5",
+        "command": "-debug.openView",
+        "when": "!debuggersAvailable"
+    },
+    {
+        "key": "f5",
+        "command": "workbench.action.debug.stop",
+        "when": "inDebugMode && !focusedSessionIsAttach"
+    },
+    {
+        "key": "shift+f5",
+        "command": "-workbench.action.debug.stop",
+        "when": "inDebugMode && !focusedSessionIsAttach"
+    },
+    
     // Recent projects
     {
         "key": "alt+r",
@@ -519,5 +540,5 @@
     {
         "key": "shift+cmd+r",
         "command": "workbench.action.reloadWindow"
-    }
+    },
 ]
