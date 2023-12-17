@@ -541,4 +541,14 @@
         "key": "shift+cmd+r",
         "command": "workbench.action.reloadWindow"
     },
+    // Quick Open
+    {
+        "key": "cmd+[Backquote]",
+        "command": "workbench.action.openPreviousEditorFromHistory"
+    },
+    {
+        "key": "cmd+[Backquote]",
+        "command": "workbench.action.quickOpenNavigateNext",
+        "when": "inFilesPicker && inQuickOpen"
+    }
 ]
