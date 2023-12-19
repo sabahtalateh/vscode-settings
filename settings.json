@@ -147,6 +147,7 @@
         "type.definition": "#000",
         "type": "#4379D0FF",
         "type.defaultLibrary": "#003ACC",
+        "function.defaultLibrary": "#003ACC",
       }
     }
   },
