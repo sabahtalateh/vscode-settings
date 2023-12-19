@@ -101,16 +101,6 @@
           }
         },
         {
-          "name": "Constants and enums",
-          "scope": [
-            // "variable.other.constant",
-            "variable.other.enummember"
-          ],
-          "settings": {
-            "foreground": "#9C13AB",
-          }
-        },
-        {
           "name": "Language Constants",
           "scope": [
             "constant.language",
@@ -120,6 +110,16 @@
           ],
           "settings": {
             "foreground": "#003ACC"
+          }
+        },
+        {
+          "name": "Constants and enums",
+          "scope": [
+            "variable.other.constant",
+            "variable.other.enummember",
+          ],
+          "settings": {
+            "foreground": "#9C13AB",
           }
         },
         {
