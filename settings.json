@@ -103,7 +103,7 @@
         {
           "name": "Constants and enums",
           "scope": [
-            "variable.other.constant",
+            // "variable.other.constant",
             "variable.other.enummember"
           ],
           "settings": {
@@ -116,6 +116,7 @@
             "constant.language",
             "support.constant",
             "variable.language",
+            "variable.other.constant",
           ],
           "settings": {
             "foreground": "#003ACC"
