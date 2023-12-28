@@ -171,14 +171,14 @@
             "foreground": "#000"
           }
         },
-        {
-          "scope": [
-            "variable.other.constant",
-          ],
-          "settings": {
-            "foreground": "#267f99",
-          }
-        }
+        // {
+        //   "scope": [
+        //     "variable.other.constant",
+        //   ],
+        //   "settings": {
+        //     "foreground": "#267f99",
+        //   }
+        // }
       ]
     }
   },
