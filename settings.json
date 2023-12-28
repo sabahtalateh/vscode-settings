@@ -116,6 +116,7 @@
           "scope": [
             "support.constant",
             "variable.language",
+            "support.function.builtin.go",
           ],
           "settings": {
             "foreground": "#003ACC"
