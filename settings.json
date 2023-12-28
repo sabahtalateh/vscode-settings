@@ -117,7 +117,8 @@
             "support.constant",
             "variable.language",
             "support.function.builtin.go",
-            "constant.language.go.mod"
+            "constant.language.go.mod",
+            "constant.language.go.sum"
           ],
           "settings": {
             "foreground": "#003ACC"
