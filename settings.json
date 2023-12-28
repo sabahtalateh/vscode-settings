@@ -117,6 +117,7 @@
             "support.constant",
             "variable.language",
             "support.function.builtin.go",
+            "constant.language.go.mod"
           ],
           "settings": {
             "foreground": "#003ACC"
@@ -283,4 +284,5 @@
     "*": true
   },
   "explorer.autoReveal": false,
+  "liveServer.settings.donotShowInfoMsg": true,
 }
