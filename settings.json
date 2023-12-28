@@ -105,6 +105,7 @@
           "scope": [
             "variable.other.constant",
             "variable.other.enummember",
+            "constant.language"
           ],
           "settings": {
             "foreground": "#9C13AB",
@@ -171,14 +172,6 @@
             "foreground": "#000"
           }
         },
-        // {
-        //   "scope": [
-        //     "variable.other.constant",
-        //   ],
-        //   "settings": {
-        //     "foreground": "#267f99",
-        //   }
-        // }
       ]
     }
   },
