@@ -100,7 +100,6 @@
             "foreground": "#000"
           }
         },
-        
         {
           "name": "Constants and enums",
           "scope": [
@@ -137,6 +136,49 @@
             "foreground": "#003ACC"
           }
         },
+        {
+          "scope": [
+            "entity.other.attribute-name",
+          ],
+          "settings": {
+            "foreground": "#003ACC"
+          }
+        },
+        {
+          "scope": [
+            "entity.name.tag",
+            "meta.function",
+            "storage.type"
+          ],
+          "settings": {
+            "foreground": "#003ACC"
+          }
+        },
+        {
+          "scope": [
+            "meta.jsx.children",
+          ],
+          "settings": {
+            "foreground": "#000"
+          }
+        },
+        {
+          "scope": [
+            "punctuation.definition.tag.begin",
+            "punctuation.definition.tag.end",
+          ],
+          "settings": {
+            "foreground": "#000"
+          }
+        },
+        {
+          "scope": [
+            "variable.other.constant",
+          ],
+          "settings": {
+            "foreground": "#267f99",
+          }
+        }
       ]
     }
   },
@@ -145,9 +187,11 @@
       "enabled": true,
       "rules": {
         "type.definition": "#000",
-        "type": "#4379D0FF",
+        "type": "#4379D0",
         "type.defaultLibrary": "#003ACC",
         "function.defaultLibrary": "#003ACC",
+        "class": "#000",
+        "method": "#8C6200"
       }
     }
   },
