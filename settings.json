@@ -194,7 +194,7 @@
         "type.defaultLibrary": "#003ACC",
         "function.defaultLibrary": "#003ACC",
         "class": "#000",
-        "method": "#8C6200"
+        // "method": "#8C6200"
       }
     }
   },
