@@ -7,6 +7,7 @@ dbaeumer.vscode-eslint
 GitHub.codespaces
 GitHub.github-vscode-theme
 GitHub.remotehub
+github.vscode-github-actions
 GitHub.vscode-pull-request-github
 golang.go
 howardzuo.vscode-favorites

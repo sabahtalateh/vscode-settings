@@ -490,11 +490,6 @@
     // Select to end of line
     {
         "key": "cmd+\\",
-        "command": "cursorEndSelect",
-        "when": "textInputFocus"
-    },
-    {
-        "key": "cmd+\\",
         "command": "-workbench.action.splitEditor"
     },
     {
@@ -507,12 +502,6 @@
         "command": "-workbench.action.terminal.splitActiveTab",
         "when": "terminalProcessSupported && terminalTabsFocus"
     },
-    {
-        "key": "shift+end",
-        "command": "-cursorEndSelect",
-        "when": "textInputFocus"
-    },
-    // Quick Fix
     {
         "key": "alt+enter",
         "command": "editor.action.quickFix"
@@ -550,5 +539,36 @@
         "key": "cmd+[Backquote]",
         "command": "workbench.action.quickOpenNavigateNext",
         "when": "inFilesPicker && inQuickOpen"
+    },
+    // Navigate Back/Forward
+    {
+        "key": "cmd+[Backslash]",
+        "command": "workbench.action.navigateBack",
+        "when": "canNavigateBack"
+    },
+    {
+        "key": "ctrl+-",
+        "command": "-workbench.action.navigateBack",
+        "when": "canNavigateBack"
+    },
+    {
+        "key": "shift+cmd+\\",
+        "command": "-editor.action.jumpToBracket",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "shift+cmd+\\",
+        "command": "-workbench.action.terminal.focusTabs",
+        "when": "terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported || terminalHasBeenCreated && terminalTabsFocus || terminalProcessSupported && terminalTabsFocus"
+    },
+    {
+        "key": "shift+cmd+[Backslash]",
+        "command": "workbench.action.navigateForward",
+        "when": "canNavigateForward"
+    },
+    {
+        "key": "ctrl+shift+-",
+        "command": "-workbench.action.navigateForward",
+        "when": "canNavigateForward"
     }
 ]
