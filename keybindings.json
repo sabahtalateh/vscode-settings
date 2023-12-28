@@ -542,7 +542,7 @@
     },
     // Navigate Back/Forward
     {
-        "key": "cmd+[Backslash]",
+        "key": "cmd+3",
         "command": "workbench.action.navigateBack",
         "when": "canNavigateBack"
     },
@@ -562,7 +562,7 @@
         "when": "terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported || terminalHasBeenCreated && terminalTabsFocus || terminalProcessSupported && terminalTabsFocus"
     },
     {
-        "key": "shift+cmd+[Backslash]",
+        "key": "alt+3",
         "command": "workbench.action.navigateForward",
         "when": "canNavigateForward"
     },
@@ -570,5 +570,9 @@
         "key": "ctrl+shift+-",
         "command": "-workbench.action.navigateForward",
         "when": "canNavigateForward"
+    },
+    {
+        "key": "cmd+3",
+        "command": "-workbench.action.focusThirdEditorGroup"
     }
 ]
