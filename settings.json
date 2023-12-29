@@ -106,10 +106,6 @@
             "variable.other.constant",
             "variable.other.enummember",
             "constant.language",
-            "variable.other.property",
-            "meta.object-literal.key",
-            "support.type.property-name",
-            "support.type.property-name.json"
           ],
           "settings": {
             "foreground": "#9C13AB",
@@ -124,10 +120,21 @@
             "constant.language.go",
             "constant.language.go.mod",
             "constant.language.go.sum",
-            "support.type.property-name.css"
+            "support.type.property-name.css",
           ],
           "settings": {
             "foreground": "#003ACC"
+          }
+        },
+        {
+          "scope": [
+            "variable.other.property",
+            "meta.object-literal.key",
+            "support.type.property-name",
+            "support.type.property-name.json"
+          ],
+          "settings": {
+            "foreground": "#0451A5",
           }
         },
         {
@@ -292,4 +299,7 @@
   },
   "explorer.autoReveal": false,
   "liveServer.settings.donotShowInfoMsg": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
 }
