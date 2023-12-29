@@ -73,7 +73,23 @@
       "comments": "#9E9E9E",
       "textMateRules": [
         {
-          "name": "Control flow / Special keywords",
+          "name": "Black",
+          "scope": [
+            "variable",
+            "meta.definition.variable.name",
+            "support.variable",
+            "entity.name.variable",
+            "constant.other.placeholder", // placeholders in strings
+            "meta.jsx.children",
+            "punctuation.definition.tag.begin",
+            "punctuation.definition.tag.end",
+          ],
+          "settings": {
+            "foreground": "#000"
+          }
+        },
+        {
+          "name": "Blue",
           "scope": [
             "keyword.control",
             "source.cpp keyword.operator.new",
@@ -81,39 +97,8 @@
             "keyword.other.using",
             "keyword.other.directive.using",
             "keyword.other.operator",
-            "entity.name.operator"
-          ],
-          "settings": {
-            "foreground": "#003ACC"
-          }
-        },
-        {
-          "name": "Variable and parameter name",
-          "scope": [
-            "variable",
-            "meta.definition.variable.name",
-            "support.variable",
-            "entity.name.variable",
-            "constant.other.placeholder", // placeholders in strings
-          ],
-          "settings": {
-            "foreground": "#000"
-          }
-        },
-        {
-          "name": "Constants and enums",
-          "scope": [
-            "variable.other.constant",
-            "variable.other.enummember",
-            "constant.language",
-          ],
-          "settings": {
-            "foreground": "#9C13AB",
-          }
-        },
-        {
-          "name": "Language Constants",
-          "scope": [
+            "entity.name.operator",
+            "keyword.operator.new",
             "support.constant",
             "variable.language",
             "support.function.builtin.go",
@@ -121,12 +106,17 @@
             "constant.language.go.mod",
             "constant.language.go.sum",
             "support.type.property-name.css",
+            "entity.other.attribute-name",
+            "entity.name.tag",
+            "meta.function",
+            "storage.type"
           ],
           "settings": {
             "foreground": "#003ACC"
           }
         },
         {
+          "name": "Another Blue",
           "scope": [
             "variable.other.property",
             "meta.object-literal.key",
@@ -138,56 +128,7 @@
           }
         },
         {
-          "name": "Import Package Name",
-          "scope": [
-            "entity.name.namespace",
-          ],
-          "settings": {
-            "foreground": "#8C6200"
-          }
-        },
-        {
-          "scope": "constant.character.escape",
-          "settings": {
-            "foreground": "#003ACC"
-          }
-        },
-        {
-          "scope": [
-            "entity.other.attribute-name",
-          ],
-          "settings": {
-            "foreground": "#003ACC"
-          }
-        },
-        {
-          "scope": [
-            "entity.name.tag",
-            "meta.function",
-            "storage.type"
-          ],
-          "settings": {
-            "foreground": "#003ACC"
-          }
-        },
-        {
-          "scope": [
-            "meta.jsx.children",
-          ],
-          "settings": {
-            "foreground": "#000"
-          }
-        },
-        {
-          "scope": [
-            "punctuation.definition.tag.begin",
-            "punctuation.definition.tag.end",
-          ],
-          "settings": {
-            "foreground": "#000"
-          }
-        },
-        {
+          "name": "Green",
           "scope": [
             "string.quoted.double.html"
           ],
@@ -195,6 +136,27 @@
             "foreground": "#07961D"
           }
         },
+        {
+          "name": "Purpl",
+          "scope": [
+            "variable.other.constant",
+            "variable.other.enummember",
+            "constant.language",
+          ],
+          "settings": {
+            "foreground": "#9C13AB",
+          }
+        },
+        {
+          "name": "Brown",
+          "scope": [
+            "entity.name.namespace",
+          ],
+          "settings": {
+            "foreground": "#8C6200"
+          }
+        },
+        
       ]
     }
   },
@@ -207,7 +169,6 @@
         "type.defaultLibrary": "#003ACC",
         "function.defaultLibrary": "#003ACC",
         "class": "#000",
-        // "method": "#8C6200"
       }
     }
   },
