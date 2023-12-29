@@ -83,6 +83,7 @@
             "meta.jsx.children",
             "punctuation.definition.tag.begin",
             "punctuation.definition.tag.end",
+            "entity.name.function.ts",
           ],
           "settings": {
             "foreground": "#000"
@@ -109,7 +110,8 @@
             "entity.other.attribute-name",
             "entity.name.tag",
             "meta.function",
-            "storage.type"
+            "storage.type",
+            "constant.language.null.ts"
           ],
           "settings": {
             "foreground": "#003ACC"
@@ -137,6 +139,15 @@
           }
         },
         {
+          "name": "Blue-Green",
+          "scope": [
+            "variable.other.constant.object.ts"
+          ],
+          "settings": {
+            "foreground": "#267f99",
+          }
+        },
+        {
           "name": "Purpl",
           "scope": [
             "variable.other.constant",
@@ -151,6 +162,7 @@
           "name": "Brown",
           "scope": [
             "entity.name.namespace",
+            "entity.name.function.member"
           ],
           "settings": {
             "foreground": "#8C6200"
@@ -167,6 +179,7 @@
         "type.definition": "#000",
         "type": "#4379D0",
         "type.defaultLibrary": "#003ACC",
+        "variable.defaultLibrary": "#9C13AB",
         "function.defaultLibrary": "#003ACC",
         "class": "#000",
       }
