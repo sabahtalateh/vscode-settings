@@ -107,7 +107,8 @@
             "variable.other.enummember",
             "constant.language",
             "variable.other.property",
-            "meta.object-literal.key"
+            "meta.object-literal.key",
+            "support.type.property-name"
           ],
           "settings": {
             "foreground": "#9C13AB",
