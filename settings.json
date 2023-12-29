@@ -123,7 +123,8 @@
             "support.function.builtin.go",
             "constant.language.go",
             "constant.language.go.mod",
-            "constant.language.go.sum"
+            "constant.language.go.sum",
+            "support.type.property-name.css"
           ],
           "settings": {
             "foreground": "#003ACC"
