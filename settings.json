@@ -114,6 +114,7 @@
             "storage.type",
             "constant.language.null.ts",
             "constant.language.null.js",
+            "constant.language.json",
           ],
           "settings": {
             "foreground": "#003ACC"
@@ -278,5 +279,14 @@
   "liveServer.settings.donotShowInfoMsg": true,
   "[javascript]": {
     "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
   },
 }
