@@ -84,6 +84,7 @@
             "punctuation.definition.tag.begin",
             "punctuation.definition.tag.end",
             "entity.name.function.ts",
+            "entity.name.function.js",
           ],
           "settings": {
             "foreground": "#000"
@@ -111,7 +112,8 @@
             "entity.name.tag",
             "meta.function",
             "storage.type",
-            "constant.language.null.ts"
+            "constant.language.null.ts",
+            "constant.language.null.js",
           ],
           "settings": {
             "foreground": "#003ACC"
@@ -141,7 +143,8 @@
         {
           "name": "Blue-Green",
           "scope": [
-            "variable.other.constant.object.ts"
+            "variable.other.constant.object.ts",
+            "variable.other.constant.object.js",
           ],
           "settings": {
             "foreground": "#267f99",
