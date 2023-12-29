@@ -105,7 +105,9 @@
           "scope": [
             "variable.other.constant",
             "variable.other.enummember",
-            "constant.language"
+            "constant.language",
+            "variable.other.property",
+            "meta.object-literal.key"
           ],
           "settings": {
             "foreground": "#9C13AB",
