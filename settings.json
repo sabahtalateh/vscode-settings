@@ -108,7 +108,8 @@
             "constant.language",
             "variable.other.property",
             "meta.object-literal.key",
-            "support.type.property-name"
+            "support.type.property-name",
+            "support.type.property-name.json"
           ],
           "settings": {
             "foreground": "#9C13AB",
