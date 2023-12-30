@@ -115,6 +115,10 @@
             "constant.language.null.ts",
             "constant.language.null.js",
             "constant.language.json",
+            "constant.language.boolean.true.ts",
+            "constant.language.boolean.true.js",
+            "constant.language.boolean.false.ts",
+            "constant.language.boolean.false.js",
           ],
           "settings": {
             "foreground": "#003ACC"
@@ -172,7 +176,6 @@
             "foreground": "#8C6200"
           }
         },
-        
       ]
     }
   },
@@ -181,11 +184,13 @@
       "enabled": true,
       "rules": {
         "type.definition": "#000",
-        "type": "#4379D0",
-        "type.defaultLibrary": "#003ACC",
-        "variable.defaultLibrary": "#9C13AB",
-        "function.defaultLibrary": "#003ACC",
         "class": "#000",
+        "function.defaultLibrary:javascript": "#000",
+        "function.defaultLibrary:typescript": "#000",
+        "type.defaultLibrary": "#003ACC",
+        "function.defaultLibrary:go": "#003ACC",
+        "type": "#4379D0",
+        "variable.defaultLibrary": "#9C13AB",
       }
     }
   },
