@@ -184,13 +184,17 @@
     "[Default Light Modern]": {
       "enabled": true,
       "rules": {
+        // Black
         "type.definition": "#000",
         "class": "#000",
         "function.defaultLibrary:javascript": "#000",
         "function.defaultLibrary:typescript": "#000",
         "variable.defaultLibrary": "#000",
+        "interface.defaultLibrary": "#000",
+        // Blue
         "type.defaultLibrary": "#003ACC",
         "function.defaultLibrary:go": "#003ACC",
+        // Another Blue
         "type": "#4379D0",
       }
     }
