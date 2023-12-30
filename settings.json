@@ -188,10 +188,10 @@
         "class": "#000",
         "function.defaultLibrary:javascript": "#000",
         "function.defaultLibrary:typescript": "#000",
+        "variable.defaultLibrary": "#000",
         "type.defaultLibrary": "#003ACC",
         "function.defaultLibrary:go": "#003ACC",
         "type": "#4379D0",
-        "variable.defaultLibrary": "#9C13AB",
       }
     }
   },
