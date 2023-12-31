@@ -85,6 +85,8 @@
             "punctuation.definition.tag.end",
             "entity.name.function.ts",
             "entity.name.function.js",
+            "variable.other.property.ts",
+            "variable.other.property.js",
           ],
           "settings": {
             "foreground": "#000"
@@ -191,6 +193,8 @@
         "function.defaultLibrary:typescript": "#000",
         "variable.defaultLibrary": "#000",
         "interface.defaultLibrary": "#000",
+        "property:javascript": "#000",
+        "property:typescript": "#000",
         // Blue
         "type.defaultLibrary": "#003ACC",
         "function.defaultLibrary:go": "#003ACC",
