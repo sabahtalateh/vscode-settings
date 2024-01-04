@@ -122,6 +122,7 @@
             "constant.language.boolean.false.ts",
             "constant.language.boolean.false.js",
             "support.type.primitive.ts",
+            "constant.language.null.tsx",
           ],
           "settings": {
             "foreground": "#003ACC"
