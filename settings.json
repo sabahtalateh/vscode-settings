@@ -174,7 +174,8 @@
           "name": "Brown",
           "scope": [
             "entity.name.namespace",
-            "entity.name.function.member.ts"
+            "entity.name.function.member.ts",
+            "entity.name.function.member.js",
           ],
           "settings": {
             "foreground": "#8C6200"
