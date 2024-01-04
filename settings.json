@@ -153,6 +153,7 @@
           "scope": [
             "variable.other.constant.object.ts",
             "variable.other.constant.object.js",
+            "entity.name.function.go",
           ],
           "settings": {
             "foreground": "#267f99",
@@ -173,7 +174,7 @@
           "name": "Brown",
           "scope": [
             "entity.name.namespace",
-            "entity.name.function.member"
+            "entity.name.function.member.ts"
           ],
           "settings": {
             "foreground": "#8C6200"
@@ -302,5 +303,8 @@
   },
   "[jsonc]": {
     "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml"
   },
 }
