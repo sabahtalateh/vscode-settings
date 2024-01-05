@@ -1,11 +1,12 @@
 {
-  "workbench.colorTheme": "Default Light Modern",
+  "workbench.colorTheme": "Extra Light",
   "workbench.iconTheme": "my-icons",
   "window.nativeTabs": true,
   "zenMode.fullScreen": false,
   "go.toolsManagement.autoUpdate": true,
   // "editor.fontFamily": "'Hack', Menlo, Monaco, 'Courier New', monospace",
   "editor.fontFamily": "'JetBrainsMono Nerd Font Mono', Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontSize": 12.5,
   // "workbench.fontAliasing": "antialiased",
   "editor.renderWhitespace": "selection",
   "workbench.editor.showTabs": "single",
@@ -37,7 +38,6 @@
   "gopls": {
     "ui.semanticTokens": true
   },
-  "symbols.hidesExplorerArrows": false,
   "editor.accessibilitySupport": "off",
   "bookmarks.gutterIconFillColor": "#fa9e00",
   "bookmarks.gutterIconBorderColor": "#fa9e00",
@@ -53,161 +53,6 @@
   "workbench.editor.enablePreview": false,
   "redhat.telemetry.enabled": false,
   "editor.guides.indentation": false,
-  "workbench.colorCustomizations": {
-    "sideBar.background": "#fff",
-    "sideBar.border": "#adb4bd",
-    "activityBar.border": "#bdc4d1",
-    "panel.border": "#bdc4d1",
-    "editor.lineHighlightBackground": "#fffae3",
-    "editorBracketHighlight.foreground1": "#000000",
-    "editorBracketHighlight.foreground2": "#000000",
-    "editorBracketHighlight.foreground3": "#000000",
-    "editorBracketHighlight.foreground4": "#000000",
-    "editorBracketHighlight.unexpectedBracket.foreground": "#000000",
-  },
-  "editor.tokenColorCustomizations": {
-    "[Default Light Modern]": {
-      "strings": "#07961D",
-      "numbers": "#1750eb",
-      "functions": "#267f99",
-      "comments": "#9E9E9E",
-      "textMateRules": [
-        {
-          "name": "Black",
-          "scope": [
-            "variable",
-            "meta.definition.variable.name",
-            "support.variable",
-            "entity.name.variable",
-            "constant.other.placeholder", // placeholders in strings
-            "meta.jsx.children",
-            "punctuation.definition.tag.begin",
-            "punctuation.definition.tag.end",
-            "entity.name.function.ts",
-            "entity.name.function.js",
-            "variable.other.property.ts",
-            "variable.other.property.js",
-          ],
-          "settings": {
-            "foreground": "#000"
-          }
-        },
-        {
-          "name": "Blue",
-          "scope": [
-            "keyword.control",
-            "source.cpp keyword.operator.new",
-            "source.cpp keyword.operator.delete",
-            "keyword.other.using",
-            "keyword.other.directive.using",
-            "keyword.other.operator",
-            "entity.name.operator",
-            "keyword.operator.new",
-            "support.constant",
-            "variable.language",
-            "support.function.builtin.go",
-            "constant.language.go",
-            "constant.language.go.mod",
-            "constant.language.go.sum",
-            "support.type.property-name.css",
-            "entity.other.attribute-name",
-            "entity.name.tag",
-            "meta.function",
-            "storage.type",
-            "constant.language.null.ts",
-            "constant.language.null.js",
-            "constant.language.json",
-            "constant.language.boolean.true.ts",
-            "constant.language.boolean.true.js",
-            "constant.language.boolean.false.ts",
-            "constant.language.boolean.false.js",
-            "support.type.primitive.ts",
-            "constant.language.null.tsx",
-          ],
-          "settings": {
-            "foreground": "#003ACC"
-          }
-        },
-        {
-          "name": "Another Blue",
-          "scope": [
-            "variable.other.property",
-            "meta.object-literal.key",
-            "support.type.property-name",
-            "support.type.property-name.json"
-          ],
-          "settings": {
-            "foreground": "#0451A5",
-          }
-        },
-        {
-          "name": "Green",
-          "scope": [
-            "string.quoted.double.html"
-          ],
-          "settings": {
-            "foreground": "#07961D"
-          }
-        },
-        {
-          "name": "Blue-Green",
-          "scope": [
-            "variable.other.constant.object.ts",
-            "variable.other.constant.object.js",
-            "entity.name.function.go",
-          ],
-          "settings": {
-            "foreground": "#267f99",
-          }
-        },
-        {
-          "name": "Purpl",
-          "scope": [
-            "variable.other.constant",
-            "variable.other.enummember",
-            "constant.language",
-          ],
-          "settings": {
-            "foreground": "#9C13AB",
-          }
-        },
-        {
-          "name": "Brown",
-          "scope": [
-            "entity.name.namespace",
-            "entity.name.function.member.ts",
-            "entity.name.function.member.js",
-          ],
-          "settings": {
-            "foreground": "#8C6200"
-          }
-        },
-      ]
-    }
-  },
-  "editor.semanticTokenColorCustomizations": {
-    "[Default Light Modern]": {
-      "enabled": true,
-      "rules": {
-        // Black
-        "type.definition": "#000",
-        "class": "#000",
-        "function.defaultLibrary:javascript": "#000",
-        "function.defaultLibrary:typescript": "#000",
-        "variable.defaultLibrary:javascript": "#000",
-        "variable.defaultLibrary:typescript": "#000",
-        "interface.defaultLibrary:javascript": "#000",
-        "interface.defaultLibrary:typescript": "#000",
-        "property:javascript": "#000",
-        "property:typescript": "#000",
-        // Blue
-        "type.defaultLibrary": "#003ACC",
-        "function.defaultLibrary:go": "#003ACC",
-        // Another Blue
-        "type": "#4379D0",
-      }
-    }
-  },
   "todohighlight.keywords": [
     {
       "text": "TODO",
