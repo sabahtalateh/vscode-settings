@@ -194,8 +194,10 @@
         "class": "#000",
         "function.defaultLibrary:javascript": "#000",
         "function.defaultLibrary:typescript": "#000",
-        "variable.defaultLibrary": "#000",
-        "interface.defaultLibrary": "#000",
+        "variable.defaultLibrary:javascript": "#000",
+        "variable.defaultLibrary:typescript": "#000",
+        "interface.defaultLibrary:javascript": "#000",
+        "interface.defaultLibrary:typescript": "#000",
         "property:javascript": "#000",
         "property:typescript": "#000",
         // Blue
