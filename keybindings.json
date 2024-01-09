@@ -58,12 +58,12 @@
     },
     // Toggle exporer
     {
-        "key": "cmd+e",
+        "key": "cmd+1",
         "command": "workbench.view.explorer",
         "when": "!sideBarFocus || (sideBarFocus && activeViewlet != 'workbench.view.explorer')",
     },
     {
-        "key": "cmd+e",
+        "key": "cmd+1",
         "command": "workbench.action.closeSidebar",
         "when": "sideBarFocus && activeViewlet == 'workbench.view.explorer'",
     },
@@ -574,5 +574,9 @@
     {
         "key": "cmd+3",
         "command": "-workbench.action.focusThirdEditorGroup"
+    },
+    {
+        "key": "cmd+1",
+        "command": "-workbench.action.focusFirstEditorGroup"
     }
 ]
