@@ -162,4 +162,5 @@
   },
   "sqltools.format": {},
   "sqltools.highlightQuery": false,
+  "workbench.tree.expandMode": "doubleClick",
 }
