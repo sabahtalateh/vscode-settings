@@ -48,7 +48,6 @@
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
   "editor.unicodeHighlight.nonBasicASCII": true,
-  "diffEditor.ignoreTrimWhitespace": false,
   "diffEditor.experimental.showMoves": true,
   "workbench.editor.enablePreview": false,
   "redhat.telemetry.enabled": false,
@@ -163,4 +162,5 @@
   "sqltools.format": {},
   "sqltools.highlightQuery": false,
   "workbench.tree.expandMode": "doubleClick",
+  "diffEditor.ignoreTrimWhitespace": false,
 }
