@@ -157,4 +157,5 @@
     "editor.defaultFormatter": "redhat.vscode-yaml"
   },
   "symbols.hidesExplorerArrows": false,
+  "workbench.tree.expandMode": "doubleClick",
 }
