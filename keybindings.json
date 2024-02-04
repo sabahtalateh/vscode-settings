@@ -109,38 +109,8 @@
     },
     // Command Palette
     {
-        "key": "cmd+[Period]", // cmd+.
+        "key": "shift shift",
         "command": "workbench.action.showCommands"
-    },
-    {
-        "key": "cmd+[Period]",
-        "command": "-problems.action.showQuickFixes",
-        "when": "problemFocus"
-    },
-    {
-        "key": "cmd+[Period]",
-        "command": "-editor.changePasteType",
-        "when": "pasteWidgetVisible"
-    },
-    {
-        "key": "cmd+[Period]",
-        "command": "-editor.changeDropType",
-        "when": "dropWidgetVisible"
-    },
-    {
-        "key": "cmd+[Period]",
-        "command": "-acceptSelectedCodeAction",
-        "when": "codeActionMenuVisible"
-    },
-    {
-        "key": "cmd+[Period]",
-        "command": "-workbench.action.terminal.showQuickFixes",
-        "when": "terminalFocus"
-    },
-    {
-        "key": "cmd+[Period]",
-        "command": "-editor.action.quickFix",
-        "when": "editorHasCodeActionsProvider && textInputFocus && !editorReadonly"
     },
     // Format
     {
@@ -344,7 +314,7 @@
     },
     // Go to File
     {
-        "key": "cmd+p",
+        "key": "cmd+e",
         "command": "extension.quickOpen.withPrefill",
     },
     {
@@ -352,7 +322,7 @@
         "command": "-workbench.action.quickOpen"
     },
     {
-        "key": "cmd+p",
+        "key": "cmd+e",
         "command": "workbench.action.quickOpenNavigateNextInFilePicker",
         "when": "inFilesPicker && inQuickOpen"
     },
@@ -578,5 +548,5 @@
     {
         "key": "cmd+1",
         "command": "-workbench.action.focusFirstEditorGroup"
-    }
+    },
 ]
