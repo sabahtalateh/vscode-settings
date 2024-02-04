@@ -76,6 +76,12 @@
         "key": "cmd+e",
         "command": "-actions.findWithSelection"
     },
+    // Focus editor on Esc
+    {
+        "key": "escape",
+        "command": "workbench.action.focusActiveEditorGroup",
+        "when": "!editorTextFocus && !(listFocus && treeFindOpen)"
+    },
     // Shift+Esc closes panel then sidebar
     {
         "key": "shift+escape",
@@ -199,11 +205,11 @@
     },
     // Next/Prev window
     {
-        "key": "cmd+[",
+        "key": "cmd+shift+[",
         "command": "workbench.action.showPreviousWindowTab",
     },
     {
-        "key": "cmd+]",
+        "key": "cmd+shift+]",
         "command": "workbench.action.showNextWindowTab",
     },
     {
@@ -548,5 +554,15 @@
     {
         "key": "cmd+1",
         "command": "-workbench.action.focusFirstEditorGroup"
+    },
+    {
+        "key": "cmd+f",
+        "command": "list.find",
+        "when": "listFocus && listSupportsFind"
+    },
+    {
+        "key": "cmd+f",
+        "command": "-list.find",
+        "when": "listFocus && listSupportsFind"
     },
 ]
