@@ -163,4 +163,5 @@
   "sqltools.highlightQuery": false,
   "workbench.tree.expandMode": "doubleClick",
   "diffEditor.ignoreTrimWhitespace": false,
+  "window.customTitleBarVisibility": "never",
 }
