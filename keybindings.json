@@ -108,62 +108,6 @@
         "command": "cursorWordLeft",
         "when": "textInputFocus"
     },
-    // Debug
-    {
-        "key": "f3",
-        "command": "workbench.action.debug.start",
-        "when": "debuggersAvailable && debugState == 'inactive'"
-    },
-    {
-        "key": "f5",
-        "command": "-workbench.action.debug.start",
-        "when": "debuggersAvailable && debugState == 'inactive'"
-    },
-    {
-        "key": "f3",
-        "command": "workbench.action.debug.continue",
-        "when": "debugState == 'stopped'"
-    },
-    {
-        "key": "f4",
-        "command": "workbench.action.debug.stepOver",
-        "when": "debugState == 'stopped'"
-    },
-    {
-        "key": "f5",
-        "command": "-workbench.action.debug.continue",
-        "when": "debugState == 'stopped'"
-    },
-    {
-        "key": "f3",
-        "command": "debug.openView",
-        "when": "!debuggersAvailable"
-    },
-    {
-        "key": "f3",
-        "command": "-workbench.action.terminal.findNext",
-        "when": "terminalFindFocused && terminalHasBeenCreated || terminalFindFocused && terminalProcessSupported || terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported"
-    },
-    {
-        "key": "f3",
-        "command": "-editor.action.nextMatchFindAction",
-        "when": "editorFocus"
-    },
-    {
-        "key": "f5",
-        "command": "-debug.openView",
-        "when": "!debuggersAvailable"
-    },
-    {
-        "key": "f5",
-        "command": "workbench.action.debug.stop",
-        "when": "inDebugMode && !focusedSessionIsAttach"
-    },
-    {
-        "key": "shift+f5",
-        "command": "-workbench.action.debug.stop",
-        "when": "inDebugMode && !focusedSessionIsAttach"
-    },
     // Copy file path
     {
         "key": "shift+cmd+c",
@@ -190,7 +134,7 @@
         "command": "-workbench.action.terminal.openNativeConsole",
         "when": "!terminalFocus"
     },
-    // Reveal file in Explorer
+    // Reveal file in Tree View
     {
         "key": "cmd+f1",
         "command": "workbench.files.action.showActiveFileInExplorer"
