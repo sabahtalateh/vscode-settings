@@ -7,8 +7,6 @@
   // "editor.fontFamily": "'Hack', Menlo, Monaco, 'Courier New', monospace",
   "editor.fontFamily": "'JetBrainsMono Nerd Font Mono', Menlo, Monaco, 'Courier New', monospace",
   "editor.fontSize": 12.5,
-  // "workbench.fontAliasing": "antialiased",
-  "editor.renderWhitespace": "selection",
   "workbench.editor.showTabs": "single",
   "zenMode.showTabs": "single",
   "window.title": "${dirty}${remoteName}${separator}${rootPath}${separator}${activeEditorShort}${separator}${profileName}",
@@ -164,4 +162,7 @@
   "workbench.tree.expandMode": "doubleClick",
   "diffEditor.ignoreTrimWhitespace": false,
   "window.customTitleBarVisibility": "never",
+  "cmake.configureOnOpen": true,
+  "cmake.showOptionsMovedNotification": false,
+  "projectManager.sortList": "Recent",
 }

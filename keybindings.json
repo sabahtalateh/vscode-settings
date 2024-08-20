@@ -1,5 +1,5 @@
 [
-    // Comment line + jump to next line
+    // Comment line then jump to next line with cmd+/ (JetBrains like)
     {
         "key": "cmd+/",
         "command": "runCommands",
@@ -11,13 +11,13 @@
         },
         "when": "editorTextFocus && !editorReadonly"
     },
-    // Delete line
+    // Delete line with cmd+backspace
     {
         "key": "cmd+backspace",
         "command": "editor.action.deleteLines",
         "when": "editorTextFocus && !editorReadonly"
     },
-    // Duplicate line
+    // Duplicate line with cmd+d (JetBrains like)
     {
         "key": "cmd+d",
         "command": "runCommands",
@@ -29,7 +29,7 @@
         },
         "when": "editorTextFocus && !editorReadonly"
     },
-    // Sidebar
+    // Sidebar with Cmd+1 (JetBrains like)
     {
         "key": "cmd+1",
         "command": "workbench.view.explorer",
@@ -44,13 +44,13 @@
         "key": "cmd+1",
         "command": "-workbench.action.focusFirstEditorGroup"
     },
-    // Focus editor on Esc
+    // Focus editor on Esc 
     {
         "key": "escape",
         "command": "workbench.action.focusActiveEditorGroup",
         "when": "!editorTextFocus && !(listFocus && treeFindOpen)"
     },
-    // Shift+Esc closes panel then sidebar
+    // Closes panel then sidebar with Shift+Esc 
     {
         "key": "shift+escape",
         "command": "workbench.action.activityBarLocation.hide",
@@ -75,18 +75,7 @@
         "key": "cmd+b",
         "command": "-workbench.action.toggleSidebarVisibility"
     },
-    // Format
-    {
-        "key": "cmd+l",
-        "command": "editor.action.formatDocument",
-        "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly && !inCompositeEditor"
-    },
-    {
-        "key": "cmd+l",
-        "command": "-expandLineSelection",
-        "when": "textInputFocus"
-    },
-    // Cursor Home
+    // Cursor Home with ctrl+a
     {
         "key": "ctrl+a",
         "command": "cursorHome",
@@ -97,7 +86,7 @@
         "command": "-cursorLineStart",
         "when": "textInputFocus"
     },
-     // Next/Prev Word
+     // Next/Prev Word (VIM like)
      {
         "key": "ctrl+w",
         "command": "cursorWordEndRight",
@@ -108,32 +97,6 @@
         "command": "cursorWordLeft",
         "when": "textInputFocus"
     },
-    // Copy file path
-    {
-        "key": "shift+cmd+c",
-        "command": "copyFilePath",
-        "when": "!editorFocus"
-    },
-    {
-        "key": "alt+cmd+c",
-        "command": "-copyFilePath",
-        "when": "!editorFocus"
-    },
-    {
-        "key": "shift+cmd+c",
-        "command": "copyFilePath",
-        "when": "editorFocus"
-    },
-    {
-        "key": "cmd+k alt+cmd+c",
-        "command": "-copyFilePath",
-        "when": "editorFocus"
-    },
-    {
-        "key": "shift+cmd+c",
-        "command": "-workbench.action.terminal.openNativeConsole",
-        "when": "!terminalFocus"
-    },
     // Reveal file in Tree View
     {
         "key": "cmd+f1",
@@ -142,5 +105,60 @@
     {
         "key": "shift+cmd+r",
         "command": "workbench.action.reloadWindow"
+    },
+    // Actions Palete with cmd+shift+a (XCode like)
+    {
+        "key": "shift+cmd+a",
+        "command": "-notification.acceptPrimaryAction",
+        "when": "notificationFocus || notificationToastsVisible"
+    },
+    {
+        "key": "shift+cmd+a",
+        "command": "workbench.action.showCommands"
+    },
+    {
+        "key": "shift+cmd+p",
+        "command": "-workbench.action.showCommands"
+    },
+    {
+        "key": "shift+cmd+a",
+        "command": "workbench.action.quickOpenNavigatePreviousInFilePicker",
+        "when": "inFilesPicker && inQuickOpen"
+    },
+    {
+        "key": "shift+cmd+p",
+        "command": "-workbench.action.quickOpenNavigatePreviousInFilePicker",
+        "when": "inFilesPicker && inQuickOpen"
+    },
+    // Format with ctrl+i (XCode like)
+    {
+        "key": "ctrl+i",
+        "command": "editor.action.formatDocument",
+        "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly && !inCompositeEditor"
+    },
+    {
+        "key": "shift+alt+f",
+        "command": "-editor.action.formatDocument",
+        "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly && !inCompositeEditor"
+    },
+    {
+        "key": "ctrl+i",
+        "command": "notebook.formatCell",
+        "when": "editorHasDocumentFormattingProvider && editorTextFocus && inCompositeEditor && notebookEditable && !editorReadonly && activeEditor == 'workbench.editor.notebook'"
+    },
+    {
+        "key": "shift+alt+f",
+        "command": "-notebook.formatCell",
+        "when": "editorHasDocumentFormattingProvider && editorTextFocus && inCompositeEditor && notebookEditable && !editorReadonly && activeEditor == 'workbench.editor.notebook'"
+    },
+    {
+        "key": "ctrl+i",
+        "command": "editor.action.formatDocument.none",
+        "when": "editorTextFocus && !editorHasDocumentFormattingProvider && !editorReadonly"
+    },
+    {
+        "key": "shift+alt+f",
+        "command": "-editor.action.formatDocument.none",
+        "when": "editorTextFocus && !editorHasDocumentFormattingProvider && !editorReadonly"
     }
 ]
