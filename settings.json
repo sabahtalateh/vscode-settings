@@ -161,8 +161,8 @@
   "sqltools.highlightQuery": false,
   "workbench.tree.expandMode": "doubleClick",
   "diffEditor.ignoreTrimWhitespace": false,
-  "window.customTitleBarVisibility": "never",
   "cmake.configureOnOpen": true,
   "cmake.showOptionsMovedNotification": false,
   "projectManager.sortList": "Recent",
+  "window.customTitleBarVisibility": "never",
 }

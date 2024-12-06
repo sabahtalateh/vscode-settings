@@ -44,13 +44,13 @@
         "key": "cmd+1",
         "command": "-workbench.action.focusFirstEditorGroup"
     },
-    // Focus editor on Esc 
+    // Focus editor on Esc
     {
         "key": "escape",
         "command": "workbench.action.focusActiveEditorGroup",
         "when": "!editorTextFocus && !(listFocus && treeFindOpen)"
     },
-    // Closes panel then sidebar with Shift+Esc 
+    // Closes panel then sidebar with Shift+Esc
     {
         "key": "shift+escape",
         "command": "workbench.action.activityBarLocation.hide",
@@ -106,30 +106,6 @@
         "key": "shift+cmd+r",
         "command": "workbench.action.reloadWindow"
     },
-    // Actions Palete with cmd+shift+a (XCode like)
-    {
-        "key": "shift+cmd+a",
-        "command": "-notification.acceptPrimaryAction",
-        "when": "notificationFocus || notificationToastsVisible"
-    },
-    {
-        "key": "shift+cmd+a",
-        "command": "workbench.action.showCommands"
-    },
-    {
-        "key": "shift+cmd+p",
-        "command": "-workbench.action.showCommands"
-    },
-    {
-        "key": "shift+cmd+a",
-        "command": "workbench.action.quickOpenNavigatePreviousInFilePicker",
-        "when": "inFilesPicker && inQuickOpen"
-    },
-    {
-        "key": "shift+cmd+p",
-        "command": "-workbench.action.quickOpenNavigatePreviousInFilePicker",
-        "when": "inFilesPicker && inQuickOpen"
-    },
     // Format with ctrl+i (XCode like)
     {
         "key": "ctrl+i",
@@ -160,5 +136,65 @@
         "key": "shift+alt+f",
         "command": "-editor.action.formatDocument.none",
         "when": "editorTextFocus && !editorHasDocumentFormattingProvider && !editorReadonly"
+    },
+    {
+        "key": "shift+cmd+c",
+        "command": "-workbench.action.terminal.openNativeConsole",
+        "when": "!terminalFocus"
+    },
+    {
+        "key": "shift+cmd+c",
+        "command": "copyFilePath",
+        "when": "!editorFocus"
+    },
+    {
+        "key": "alt+cmd+c",
+        "command": "-copyFilePath",
+        "when": "!editorFocus"
+    },
+    {
+        "key": "shift+cmd+c",
+        "command": "copyFilePath",
+        "when": "editorFocus"
+    },
+    {
+        "key": "cmd+k alt+cmd+c",
+        "command": "-copyFilePath",
+        "when": "editorFocus"
+    },
+    {
+        "key": "cmd+r",
+        "command": "-python.refreshTensorBoard",
+        "when": "python.hasActiveTensorBoardSession"
+    },
+    {
+        "key": "alt+r",
+        "command": "workbench.action.terminal.runRecentCommand",
+        "when": "accessibilityModeEnabled && terminalFocus && terminalHasBeenCreated || accessibilityModeEnabled && terminalFocus && terminalProcessSupported || accessibilityModeEnabled && accessibleViewIsShown && terminalHasBeenCreated && accessibleViewCurrentProviderId == 'terminal' || accessibilityModeEnabled && accessibleViewIsShown && terminalProcessSupported && accessibleViewCurrentProviderId == 'terminal'"
+    },
+    {
+        "key": "cmd+r",
+        "command": "-workbench.action.terminal.runRecentCommand",
+        "when": "accessibilityModeEnabled && terminalFocus && terminalHasBeenCreated || accessibilityModeEnabled && terminalFocus && terminalProcessSupported || accessibilityModeEnabled && accessibleViewIsShown && terminalHasBeenCreated && accessibleViewCurrentProviderId == 'terminal' || accessibilityModeEnabled && accessibleViewIsShown && terminalProcessSupported && accessibleViewCurrentProviderId == 'terminal'"
+    },
+    {
+        "key": "cmd+r",
+        "command": "-inlineChat.regenerate",
+        "when": "inlineChatHasProvider && inlineChatVisible"
+    },
+    {
+        "key": "cmd+r",
+        "command": "-workbench.action.reloadWindow",
+        "when": "isDevelopment"
+    },
+    {
+        "key": "cmd+r",
+        "command": "workbench.action.terminal.clear",
+        "when": "terminalFocus && terminalHasBeenCreated && !accessibilityModeEnabled || terminalFocus && terminalProcessSupported && !accessibilityModeEnabled || accessibilityModeEnabled && accessibleViewIsShown && terminalHasBeenCreated && accessibleViewCurrentProviderId == 'terminal' || accessibilityModeEnabled && accessibleViewIsShown && terminalProcessSupported && accessibleViewCurrentProviderId == 'terminal'"
+    },
+    {
+        "key": "cmd+k",
+        "command": "-workbench.action.terminal.clear",
+        "when": "terminalFocus && terminalHasBeenCreated && !accessibilityModeEnabled || terminalFocus && terminalProcessSupported && !accessibilityModeEnabled || accessibilityModeEnabled && accessibleViewIsShown && terminalHasBeenCreated && accessibleViewCurrentProviderId == 'terminal' || accessibilityModeEnabled && accessibleViewIsShown && terminalProcessSupported && accessibleViewCurrentProviderId == 'terminal'"
     }
 ]
