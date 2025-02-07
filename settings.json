@@ -63,20 +63,68 @@
     // применяются с темой "Default Light Modern"
     "editor.tokenColorCustomizations": {
         "[Default Light Modern]": {
+            // Комменты серые
             "comments": "#8c8c8c",
+
+            // Ключевые слова и цифры синие
             "keywords": "#0033b3",
-            "strings": "#067d17",
             "numbers": "#0033b3",
+
+            // Строки зеленые
+            "strings": "#067d17",
+
+            // Функции синие но по другому
             "functions": "#00627A",
+
+            // Всё остальное чёрное
             "variables": "#000000",
             "types": "#000000",
             "textMateRules": [
+                // Комменты серые
+                {
+                    "scope": "comment",
+                    "settings": {
+                        "foreground": "#8c8c8c",
+                        "fontStyle": "italic"
+                    }
+                },
+                // Ключевые слова синие
                 {
                     "scope": "keyword",
                     "settings": {
                         "foreground": "#0033b3",
                     }
                 },
+                // Констатны языка синие. Ex: nil
+                {
+                    "scope": "constant.language",
+                    "settings": {
+                        "foreground": "#0033b3",
+                    }
+                },
+                // Плейсхолдеры в fmt.Sprintf("..%s") синие
+                {
+                    "scope": "constant.other.placeholder",
+                    "settings": {
+                        "foreground": "#0033b3",
+                    }
+                },
+                // Встроенные типы синие
+                {
+                    "scope": [
+                        "storage.type.byte.go",
+                        "storage.type.uintptr.go",
+                        "storage.type.boolean.go",
+                        "storage.type.numeric.go",
+                        "storage.type.rune.go",
+                        "storage.type.string.go",
+                        "storage.type.error.go",
+                    ],
+                    "settings": {
+                        "foreground": "#0033b3"
+                    }
+                },
+                // Всё остальное чёрное
                 {
                     "scope": "variable.other.constant",
                     "settings": {
@@ -89,33 +137,6 @@
                         "foreground": "#000000",
                     }
                 },
-                {
-                    "scope": "constant.language",
-                    "settings": {
-                        "foreground": "#0033b3",
-                    }
-                },
-                {
-                    "scope": "constant.other.placeholder",
-                    "settings": {
-                        "foreground": "#0033b3",
-                    }
-                },
-                {
-                    "scope": [
-                        "storage.type",
-                        "storage.type.string.go",
-                        "storage.type.numeric.go",
-                        "storage.type.byte.go",
-                        "storage.type.error.go",
-                        "storage.type.boolean.go",
-                        "storage.type.rune.go",
-                        "storage.type.uintptr.go",
-                    ],
-                    "settings": {
-                        "foreground": "#0033b3"
-                    }
-                }
             ],
         },
     },
